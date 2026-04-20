@@ -1,0 +1,20 @@
+{
+  "name": "nodekit",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React UI primitives for editor and developer-tool interfaces.",
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "storybook": "turbo run storybook",
+    "build-storybook": "turbo run build-storybook",
+    "typecheck": "turbo run typecheck",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}
